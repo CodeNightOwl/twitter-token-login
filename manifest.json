@@ -1,0 +1,27 @@
+{
+    "background": {
+        "persistent": true,
+        "scripts": [
+            "popup/script.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icons/logo.png",
+        "default_popup": "popup/index.html"
+    },
+    "description": "用token快速登录推特，owl-2024.",
+    "icons": {
+        "128": "icons/logo.png"
+    },
+    "manifest_version": 2,
+    "name": "推特 Token 登录",
+    "permissions": [
+        "http://*.twitter.com/*",
+        "https://*.twitter.com/*",
+        "http://*.x.com/*",
+        "https://*.x.com/*"
+    ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.0.1",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsDqpbVpX9rbxjpvh0we018vfwKdHrmoTghQCT6189493bU6USgLHRETVCcHQKYq/LbTSO3znZQOYesJ03wRFd3WyTAtuf9PuT7w5RcDTlh/WqX3T35Ds++c1jXgKi20clpVZhNabVRlVSJXoS6Ed1RXUQY4N+2SqHbL4DsWqmCv82Qc6zVX6EsjeoSlhggeatMlfHmKCWOGnkhfo9kcTQGLqiuccDJnh+2c0Gm4/aXaY9o1u8KZXGloWdv23RPLvNym8CyVKvNOUtcqFPbZohfRa21E5XcyW8i6okaZt6u/0mzN1A+PYcgXeMPHQukmKARu7MflLD/oKQW8suw93hQIDAQAB"
+}
